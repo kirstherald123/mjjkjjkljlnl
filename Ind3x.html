@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sweet Tooth</title>
+    <style>
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #202c1f;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 230px;
+  text-align:center;
+  overflow: hidden;
+  
+  
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #679e63;
+  display: block;
+  transition: 0.3s;
+  font-size: 35px;
+}
+
+.sidenav a:hover{
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 0px;
+    color: rgb(52, 78, 42);
+    font-weight: 100px;
+    text-align: center;
+    background-color: #ffffff;
+    height: 325x;
+}
+.Header{
+    text-align: center;
+    font-weight: 100px;
+    font-family: sans-serif;
+    margin-top: 80px;
+    font-size: larger;
+}
+.IMG{
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo{
+    background-color: #41743a7a;
+  padding: 15px;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #436143;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  width: 33.33%;
+  padding: 5px;
+text-align: center;
+float: left;
+
+ 
+}
+
+   .column:hover img{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.7s;
+   }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  height: 80px;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.containers {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+
+.columns {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 5px;
+}
+.rows:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+input{
+    width: 450px;
+    height: 40px;
+}
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</style>
+</head>
+<body>
+    <div class="logo" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;    Sweet Tooth</div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <nav>
+                <a href="#home" >Home</a>
+                <a href="#About">About</a>
+                <a href="#Menu">Menu</a>
+                <a href="#contact">Contact</a>
+      </nav>
+      </div>
+      <section class="home" id="home">
+        <div class="IMG">
+                <img src="https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.15752-9/439344253_960847795271981_2814637074145785314_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEnmBNP5JkS0x3zHuGWz0fY3fHbKlg-Y0rd8dsqWD5jSrd22hFpf2XTQwN8_AyeImu7KFHuJpmfVEQXdQS1McKD&_nc_ohc=G7S_IkPJx60Ab5uG68a&_nc_ht=scontent.fmnl17-1.fna&oh=03_Q7cD1QHDuKuLwhKZy26YME0jIErVfpEXisMdYQ3yFFovxXHPOw&oe=66586BDA" width="100%">
+        </div>
+            </div>
+</div>
+</div>
+<div class="description" id="About">                  
+   <h1 style="text-align: center;font-size: 40px;"> WELCOME TO SWEET TOOTH</h1>               
+<p>Are you craving something sweet and comforting? Look no more! Our homemade treats are made with love and fresh ingredients, guaranteed to make you happy, whether you're in the mood for a classic Egg Pie, flavorful Banana Bread, or a delicious Cassava Cake, we've got you covered.
+Each bite is a wonderful experience, bringing you the comfort of home. Order now! and treat yourself  delicious homemade goodies that you will surely love. We are available for any events and anytime!</p>
+</div>
+<div id="Menu">
+<h1 style="text-align: center;font-size: 50px;color: rgb(68, 107, 64);">M E N U</h1>
+    
+       <div class="row">
+            
+        <div class="column">
+                    
+            <img src="https://scontent.fmnl17-2.fna.fbcdn.net/v/t1.15752-9/439397956_1159879045192641_18331388080992814_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeH-KyvZyGo0HIApOrgn71DqmRxVlOgf8teZHFWU6B_y1-bV4J9f3LhAxtnW9qx854TQdmqj4s25VoHS34daH9Jh&_nc_ohc=N8hRWEHMcLMQ7kNvgEKV71u&_nc_ht=scontent.fmnl17-2.fna&oh=03_Q7cD1QFYH7gAJpkWkrOSUmLSPStiBeebjyU4B21a52wQEqY5vw&oe=66587CAC" alt="banana bread" style="width: 85%">
+               <div>
+                <h3 style="color: #284128;"><b>Banana bread</b></h3>
+                <h4 style="color: #1a251a;font-weight: lighter;">➥Small....₱100</h4>
+                <h4 style="color: #1a251a;font-weight: lighter;"> ➥Large....₱200</h4>
+                <p style="font-size: 40px;color:rgb(255, 211, 67);">★★★★★<span style="font-size:30px;font-weight: bold;color: #316335;">5.0</span></p>
+              </div>
+          </div>
+          
+        <div class="column">
+        
+                        <img src="https://scontent.fmnl17-1.fna.fbcdn.net/v/t1.15752-9/439748392_1265985781246030_5030473053633241749_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGf6WEd48w_-L0oHsrZw7p8um2B9SclAEG6bYH1JyUAQdqY1_eMmxkz_yaRcO0AbtYjPYAjcux6fqi5Lz3m7b57&_nc_ohc=14qO9hizPzQQ7kNvgF7NrJ4&_nc_ht=scontent.fmnl17-1.fna&oh=03_Q7cD1QFK3l28KWdSHEKZiirv5m4QKYdYee3ETH7NpAcWwC_f9A&oe=6658A704" alt="slice of egg pie" style="width: 85%">
+                        <div>
+                            <h3 style="color: #284128;"><b>Egg Pie</b></h3>
+                            <h4 style="color: #1a251a;font-weight: lighter;">➥Small....₱150</h4>
+                            <h4 style="color: #1a251a;font-weight: lighter;"> ➥Large....₱260</h4>
+                            <p style="font-size: 40px;color:rgb(255, 211, 67);">★★★★★<span style="font-size:30px;font-weight: bold;color: #316335;">5.0</span></p>
+                          </div>
+                </div>
+                <div class="column">
+                   
+                        <img src="https://scontent.fmnl17-3.fna.fbcdn.net/v/t1.15752-9/440867475_817253410260797_2991336816072006788_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeG1bQ54_IFt1vued2NLU66JEEQVgTYyR8UQRBWBNjJHxaKKG9R3DXfCjSvMoVRis3NGfQy_29QXgSGJ-Wlk1Oa9&_nc_ohc=2q1bIlNHbIYQ7kNvgE1Nx0S&_nc_ht=scontent.fmnl17-3.fna&oh=03_Q7cD1QEvmJASEKzKOfmLQObqHK3iWpwYXHRw9fw2a-i2yHHFAA&oe=66588B39" alt="2 slices of cassava cake" style="width: 85%">
+                        <div>
+                            <h3 style="color: #284128;"><b>Cassava Cake</b></h3>
+                            <h4 style="color: #1a251a;font-weight: lighter;">➥Small....₱130</h4>
+                            <h4 style="color: #1a251a;font-weight: lighter;"> ➥Large....₱250</h4>
+                            <p style="font-size: 40px;color:rgb(255, 211, 67);">★★★★★<span style="font-size:30px;font-weight: bold;color: #316335;">5.0</span></p>
+                          </div>
+                    </div>
+                   
+    
+      <div class="clearfix"></div>
+</div>
+</div>
+
+      
+    <div  class="contact" id="contact">
+        <footer>
+            <h1 style="text-align: center;font-size: 50px;color: rgb(68, 107, 64);">C O N T A C T</h1>
+            <div class="containers">
+                <div class="rows">
+                  
+                  <div class="columns">
+                    <form action="#home">
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      <label for="gmail">G-mail</label>
+                      <input type="text" id="gname" name="G-mail" placeholder="1123483hysrts@gmail.com">
+                      <label for="subject">Subject</label>
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:69px"></textarea>
+                      <div style="text-align: center;"><input  type="Submit" value="Submit"></div>
+                    </form>
+                </div>
+
+                      <div class="columns" style="padding-bottom: 130px;margin: center;background-color: #1a251a;font-family: monospace;">
+                        <P></P>
+                        <p></p>
+                        <p style="color: #1a251a;font-size: 40px;">I</p>
+                        <p style="text-align: center;color: white;font-size: 25px;"><span style="font-size: 28px;">Address: </span> ➤ Mangino, Gapan City, NE</p>
+                        <p style="text-align: center;color: white;font-size: 25px;"> <span style="font-size: 28px;">Phone: </span>☎︎ 09569685187</p>
+                        <p style="text-align: center;color: white;font-size: 25px;"><span style="font-size: 28px;">Email: </span>✉︎ SweeT00th@gmail.com</p>
+
+                        <p style="text-align: center;color: white;font-size: 25px;">© 2024 All Rights Reserved by Sweet Tooth </p>
+                      </div>
+                    </div>
+                      </div>
+                      
+                </footer>
+            </div>
+    </div>
+</section>
+<script>
+    function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</body>
+</html>
